@@ -104,30 +104,32 @@ python uv.py --map
 This command will show the UV Radiation indexes of the capital cities of Australia.
 (These docs were written at night so the UV index values are all 0s.)
 
+
 ```
 > python uv.py --map
 
 
-
                     _,__        .:
-               6.0  <*  /        | \
+               0.0  <*  /        | \
                .-./     |.     :  :,
               /           '-._/     \_
              /                '       \
-           .'      UV Radiation        *: 8.0 
+           .'      UV Radiation        *: 0.0 
         .-'            of               ;
         |           AUSTRALIA           |
         \                              /
          |                            /
-     6.0   \*        __.--._         */ 7.0 
-           \     _.'    7.0  \*.      *| 6.0 
+     0.0   \*        __.--._         */ 0.0 
+           \     _.'    0.0  \*.      *| 0.0 
            >__,-'             \_/*_.-'
-                                6.0 
+                                0.0 
                                 :--,
                                  '/
+
+
 ```
 ## Showing all data
-
+(These docs were written at night so the UV index values are all 0s.)
 ```
 > python uv.py --all
 UVR in  Adelaide is 0.0 [ LOW  ] Measured 2 min ago.
