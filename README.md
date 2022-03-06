@@ -9,6 +9,8 @@ uv.py is a simple tool that extracts UV Radiation index data from the Australian
 * The script comes with absoultely **NO** gurantees. 
 * This script was written over the course of a few hours. Treat it as such.
 * The ARPNSA dataset is limited to a handful of stations. Their disclaimer can be found [here](https://www.arpansa.gov.au/our-services/monitoring/ultraviolet-radiation-monitoring/ultraviolet-radation-data-information#Disclaimer)
+* Eachtime the script is run, it reds the ARPNSA live data file. So, *Please leave a gap of at least 5 seconds between subsequent calls*. 
+
 
 
 ## Installation
