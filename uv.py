@@ -57,6 +57,7 @@ moderate = colored(255,153,102, "MODERATE")
 low = colored(102,255,51, "LOW")
 
 def speed_check():
+    return True
     try:
         f = open("uv.tmp","r")
         dt = f.read()
@@ -64,9 +65,10 @@ def speed_check():
         old_time = datetime.strptime(dt, '%Y/%m/%d %H:%M:%S')
         now = datetime.utcnow()
         gap = now - old_time
+        print(now, old_time)
         # print(gap.seconds)
         if round(gap.seconds) < 5:
-            print("Please allow for at least 5 seconds between subsequent calls (Last call was", gap.seconds, "second(s) ago. Exiting...")
+            print("Please allow for at least 5 seconds between subsequent calls (Last call was", gap.seconds, "second(s) ago). Exiting...")
             return False
         else:
             return True
