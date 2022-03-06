@@ -102,7 +102,7 @@ For more details you can use the `--detailed` flag.
 python uv.py --map
 ```
 This command will show the UV Radiation indexes of the capital cities of Australia.
-
+(These docs were written at night so the UV index values are all 0s.)
 
 ```
 > python uv.py --map
